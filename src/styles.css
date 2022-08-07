@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.inputContainer input {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(6, 113, 236);
+  border: 1px solid rgb(6, 113, 236);
+  outline: none;
+  padding-left: 0.4rem;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.inputContainer input::placeholder {
+  color: rgb(6, 113, 236);
+}
+
+.qrContainer img {
+  color: green;
+  background-color: green;
+}
